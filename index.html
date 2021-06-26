@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/d3-geo-projection@2.8.1/dist/d3-geo-projection.min.js"></script>
+    <link rel="stylesheet" href="./index.css">  
+   <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.4/dc.js" integrity="sha512-BWWts+U7zfhkcjrB52oboOhFttqosf4pVp2I7rCZIj9DwC0Z8d5c6X77zgkF7x+/toNVMADWmY1mdRYMd+eBBA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js" integrity="sha512-pBSlhNUvB+td6sjW1zmR6L7c7kVWR4octUPl4tfHmzO63424nxta8aLmficEcAAswQmRqTiToi63AazDurj/Sg==" crossorigin="anonymous"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/5.2.0/react-router-dom.js" integrity="sha512-LOOlcIrzggklo15g/pbJis06755L5SZYg2RZEUw7t8k/aALW/atg2qg6h8oSLIvk25ulbzhz/p4LH2PUYa+rLw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/7.2.3/react-redux.js" integrity="sha512-aZ+PWUFwqxYApYd3G+PW4u0IMQVEr2AYOC3JOTV9tzK7V6knG4aGBgpkFUNjtxGFzLbuh5J4bA2pGz0fgAXa2w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reselect/4.0.0/reselect.js" integrity="sha512-6jccNbqfEQUK7R6NOYFDmnA63Mr8Ks9P9mOUn9fFlWnA5lTEzJ+PfEDsOV6tUy7wqmIyJmjqGzSHROnXGl4PNA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.0-beta.1/redux.js" integrity="sha512-a18iH5k0MJdFLaOvN1STjT2wNpH4tjIKSuWXZOZ7nWxkMydoMGZCkQ88Ch/RnAVzVVNVfhl3dxyg5UKABKhr0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js" integrity="sha512-nlO6OGj6wb0uu/thpSry7qFal63hfhCLExpWxYomYB3tBznqWmKggsDHNHSLjnVaoade9tv/rErN498NSzwBnA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Policy Performance</title>
+</head>
+<body>
+    <div id="render"></div>
+    <script src="./reduce.js" type="text/babel"  ></script>
+    <script src="./reuse.js" type="text/babel" ></script>
+    <script src="./line_chart.js" type="text/babel"></script>
+    <script src="./index.js" type="text/babel"></script>
+</body>
+</html>
